@@ -4,10 +4,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
-
 }
 
-/* -------------- First section ----------------- */
+/* -------------- Navbar ----------------- */
 .container-fluid{
     padding: 0;
 }
@@ -36,6 +35,11 @@ ul li a:hover{
     color: #ffbe33;
 }
 
+/* -------------- First section ----------------- */
+.sectio1{
+    height: 100%;
+    width: 100%;
+}
 /* <!-------------- Menu Title -----------------> */
 .menu-title{
     font-family: "Dancing Script", cursive;
@@ -50,6 +54,9 @@ ul li a:hover{
     background-color: black !important;
 }
 /* <!----------------- Menu Items ---------------> */
+.row{
+    padding: 0px 190px;
+}
 .menu-card{
     background-color: #222831;
     border-radius: 12px;
@@ -166,4 +173,30 @@ ul li a:hover{
 .view-more{
     height: 40px;
     width: 200px;
+    margin-bottom: 20px;
+}
+
+/*---------------------- Footer  ---------------------------*/
+.footer {
+    background-color: #222831; 
+    color: #ffffff;
+    padding: 40px 0;
+}
+.footer h5 {
+    font-family: "Dancing Script", cursive; 
+    font-size: 30px;
+}
+.social-icons a {
+    height: 30px;
+    width: 30px;
+    background-color: #ffffff;
+    color: #222831;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px; 
+    margin: 0 10px; 
+    font-size: 20px; 
+}
+.social-icons a:hover{
+    color: #ffbe33;
 }
