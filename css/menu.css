@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playpen+Sans:wght@500&family=Sixtyfour&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+
+}
+
+/* -------------- First section ----------------- */
+.container-fluid{
+    padding: 0;
+}
+
+.navbar-brand{
+    color: white;
+    font-family: "Dancing Script", cursive;
+}
+ul li a{
+    padding-inline: 30px !important;
+    color: white !important;
+}
+ul li a:hover{
+    color: #ffbe33 !important;
+}
+.active{
+    color: #ffbe33 !important;
+}
+.btn:hover{
+    background-color: #e69c00;
+}
+.hover{
+    color: white;
+}
+.hover:hover{
+    color: #ffbe33;
+}
+
+/* <!-------------- Menu Title -----------------> */
+.menu-title{
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+}
+.text-color{
+    font-size: 18px;
+    color: black !important;
+}
+.text-color.active{
+    color: white !important;
+    background-color: black !important;
+}
+/* <!----------------- Menu Items ---------------> */
+.menu-card{
+    background-color: #222831;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.food-img {
+    padding: 50px;
+    background-color: #f1f2f3;
+    border-radius: 0 0 0 45px;
+}
+.img-container {
+    width: 100%;
+    padding-bottom: 75%; /* 4:3 Aspect Ratio */
+    border-radius: 10px;
+    background: url(../Images/f1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img-container.burger {
+    background: url(../Images/f2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-container.pizza-special {
+    background: url(../Images/f3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img-container.pasta {
+    background: url(../Images/f4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img-container.fries {
+    background: url(../Images/f5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img-container.pizza {
+    background: url(../Images/f6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img-container.classic-burger {
+    background: url(../Images/f7.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img-container.tasty-burger {
+    background: url(../Images/f8.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img-container.spring-pasta {
+    background: url(../Images/f9.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.menu-info {
+    padding: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-info h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.menu-info p {
+    color: white;
+    font-size: 1.10rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+.price-order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: white;
+}
+.btn-add{
+    height: 40px;
+    width: 40px;
+    background-color: #ffbe33;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    line-height: 40px;
+}
+.view-more{
+    height: 40px;
+    width: 200px;
+}

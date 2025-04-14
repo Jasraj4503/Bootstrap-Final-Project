@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feane</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./Images/il_fullxfull.4803484927_dpch.webp">
+</head>
+
+<body>
+
+  <!------------------- First section -------------------->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-black">
+      <div class="container">
+        <a class="navbar-brand fs-2" href="#">Feane</a>
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./html/menu.html">MENU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BOOK TABLE</a>
+            </li>
+          </ul>
+          <div class="d-flex justify-content-center align-items-center gap-4 me-4 ms-5">
+            <i class="fa-solid fa-user hover"></i>
+            <i class="fa-solid fa-cart-shopping hover"></i>
+            <i class="fa-solid fa-magnifying-glass hover"></i>
+            <button type="button" class="btn btn-warning rounded-pill text-white me-3">Oreder Online</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="position-relative main-img">
+      <div class="position-absolute">
+        <h2 class="text-white font-style">Fast Food Restaurant</h2>
+        <p class="text-white para">Doloremque, itaque aperiam facilis rerum, commodi, temporibus
+          sapiente
+          ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste
+          magni
+          quos nihil ducimus libero ipsam.</p>
+        <button type="button" class="btn btn-warning rounded-pill text-white me-5 btn2">Oreder
+          Online</button>
+      </div>
+    </div>
+  </div>
+
+  <!------------------- Second section -------------------->
+  <div class="section2">
+    <div class="container py-4">
+      <!-- Promotional Banners -->
+      <div class="row mb-5">
+        <div class="col-md-6 mb-3 mb-md-0">
+          <div class="offer-items d-flex margin">
+            <div class="offer-img"></div>
+            <div class="offer-details ms-lg-4">
+              <div class="text-white font">Tasty Thursdays</div>
+              <div class="font2">20% <sub>off</sub></div>
+              <button class="offer-order-btn btn btn-warning rounded-pill text-white me-lg-5">Order Now <i
+                  class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="offer-items d-flex">
+            <div class="offer-img2"></div>
+            <div class="offer-details ms-lg-4">
+              <div class="text-white font">Pizza Days</div>
+              <div class="font2">15% <sub>off</sub></div>
+              <button class="offer-order-btn btn btn-warning rounded-pill text-white me-lg-5">Order Now <i
+                  class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu Title -->
+      <div class="text-center mb-4">
+        <h2 class="menu-title">Our Menu</h2>
+      </div>
+
+      <!-- Category Tabs -->
+      <div class="category-tabs mb-4">
+        <ul class="nav nav-pills justify-content-center" id="menuTabs" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active text-color" id="all-tab" data-bs-toggle="pill" data-bs-target="#all"
+              type="button" role="tab" aria-controls="all" aria-selected="true">All</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-color" id="burger-tab" data-bs-toggle="pill" data-bs-target="#burger"
+              type="button" role="tab" aria-controls="burger" aria-selected="false">Burger</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-color" id="pizza-tab" data-bs-toggle="pill" data-bs-target="#pizza"
+              type="button" role="tab" aria-controls="pizza" aria-selected="false">Pizza</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-color" id="pasta-tab" data-bs-toggle="pill" data-bs-target="#pasta"
+              type="button" role="tab" aria-controls="pasta" aria-selected="false">Pasta</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-color" id="fries-tab" data-bs-toggle="pill" data-bs-target="#fries"
+              type="button" role="tab" aria-controls="fries" aria-selected="false">Fries</button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Menu Items -->
+      <div class="tab-content" id="menuTabsContent">
+        <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+          <div class="row">
+            <!-- Item 1 -->
+            <div class="col-md-4 mb-4">
+              <div class="menu-card">
+                <div class="food-img">
+                  <div class="img-container"></div>
+                </div>
+                <div class="menu-info">
+                  <h4>Delicious Pizza</h4>
+                  <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque</p>
+                  <div class="price-order">
+                    <span class="price">$20</span>
+                    <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="col-md-4 mb-4">
+              <div class="menu-card">
+                <div class="food-img">
+                  <div class="img-container burger"></div>
+                </div>
+                <div class="menu-info">
+                  <h4>Delicious Burger</h4>
+                  <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque</p>
+                  <div class="price-order">
+                    <span class="price">$15</span>
+                    <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="col-md-4 mb-4">
+              <div class="menu-card">
+                <div class="food-img">
+                  <div class="img-container pizza-special"></div>
+                </div>
+                <div class="menu-info">
+                  <h4>Delicious Pizza</h4>
+                  <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque</p>
+                  <div class="price-order">
+                    <span class="price">$17</span>
+                    <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="col-md-4 mb-4">
+              <div class="menu-card">
+                <div class="food-img">
+                  <div class="img-container pasta"></div>
+                </div>
+                <div class="menu-info">
+                  <h4>Delicious Pasta</h4>
+                  <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque</p>
+                  <div class="price-order">
+                    <span class="price">$18</span>
+                    <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="col-md-4 mb-4">
+              <div class="menu-card">
+                <div class="food-img">
+                  <div class="img-container fries"></div>
+                </div>
+                <div class="menu-info">
+                  <h4>French Fries</h4>
+                  <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque</p>
+                  <div class="price-order">
+                    <span class="price">$10</span>
+                    <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="col-md-4 mb-4">
+              <div class="menu-card">
+                <div class="food-img">
+                  <div class="img-container pizza"></div>
+                </div>
+                <div class="menu-info">
+                  <h4>Delicious Pizza</h4>
+                  <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque</p>
+                  <div class="price-order">
+                    <span class="price">$15</span>
+                    <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 7 -->
+            <div class="col-md-4 mb-4">
+              <div class="menu-card">
+                <div class="food-img">
+                  <div class="img-container classic-burger"></div>
+                </div>
+                <div class="menu-info">
+                  <h4>Classic Burger</h4>
+                  <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque</p>
+                  <div class="price-order">
+                    <span class="price">$12</span>
+                    <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 8 -->
+            <div class="col-md-4 mb-4">
+              <div class="menu-card">
+                <div class="food-img">
+                  <div class="img-container tasty-burger"></div>
+                </div>
+                <div class="menu-info">
+                  <h4>Tasty Burger</h4>
+                  <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque</p>
+                  <div class="price-order">
+                    <span class="price">$14</span>
+                    <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 9 -->
+            <div class="col-md-4 mb-4">
+              <div class="menu-card">
+                <div class="food-img">
+                  <div class="img-container spring-pasta"></div>
+                </div>
+                <div class="menu-info">
+                  <h4>Delicious Pasta</h4>
+                  <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque</p>
+                  <div class="price-order">
+                    <span class="price">$10</span>
+                    <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Burger Tab -->
+        <div class="tab-pane fade" id="burger" role="tabpanel" aria-labelledby="burger-tab">
+          <div class="row">
+            <!-- Burger Item 1 -->
+            <div class="col-md-4 mb-4">
+              <div class="menu-card">
+                <div class="food-img">
+                  <div class="img-container burger"></div>
+                </div>
+                <div class="menu-info">
+                  <h4>Delicious Burger</h4>
+                  <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque</p>
+                  <div class="price-order">
+                    <span class="price">$15</span>
+                    <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Burger Item 2 -->
+            <div class="col-md-4 mb-4">
+              <div class="menu-card">
+                <div class="food-img">
+                  <div class="img-container classic-burger"></div>
+                </div>
+                <div class="menu-info">
+                  <h4>Classic Burger</h4>
+                  <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque</p>
+                  <div class="price-order">
+                    <span class="price">$12</span>
+                    <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Burger Item 3 -->
+            <div class="col-md-4 mb-4">
+              <div class="menu-card">
+                <div class="food-img">
+                  <div class="img-container tasty-burger"></div>
+                </div>
+                <div class="menu-info">
+                  <h4>Tasty Burger</h4>
+                  <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque</p>
+                  <div class="price-order">
+                    <span class="price">$14</span>
+                    <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pizza Tab -->
+        <div class="tab-pane fade" id="pizza" role="tabpanel" aria-labelledby="pizza-tab">
+          <div class="row">
+            <!-- Pizza Item 1 -->
+            <div class="col-md-4 mb-4">
+              <div class="menu-card">
+                <div class="food-img">
+                  <div class="img-container"></div>
+                </div>
+                <div class="menu-info">
+                  <h4>Delicious Pizza</h4>
+                  <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque</p>
+                  <div class="price-order">
+                    <span class="price">$20</span>
+                    <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pizza Item 2 -->
+            <div class="col-md-4 mb-4">
+              <div class="menu-card">
+                <div class="food-img">
+                  <div class="img-container pizza-special"></div>
+                </div>
+                <div class="menu-info">
+                  <h4>Delicious Pizza</h4>
+                  <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque</p>
+                  <div class="price-order">
+                    <span class="price">$17</span>
+                    <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pizza Item 3 -->
+            <div class="col-md-4 mb-4">
+              <div class="menu-card">
+                <div class="food-img">
+                  <div class="img-container pizza"></div>
+                </div>
+                <div class="menu-info">
+                  <h4>Delicious Pizza</h4>
+                  <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque</p>
+                  <div class="price-order">
+                    <span class="price">$15</span>
+                    <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pasta Tab -->
+        <div class="tab-pane fade" id="pasta" role="tabpanel" aria-labelledby="pasta-tab">
+          <div class="row">
+            <!-- Pasta Item 1 -->
+            <div class="col-md-4 mb-4">
+              <div class="menu-card">
+                <div class="food-img">
+                  <div class="img-container pasta"></div>
+                </div>
+                <div class="menu-info">
+                  <h4>Delicious Pasta</h4>
+                  <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque</p>
+                  <div class="price-order">
+                    <span class="price">$18</span>
+                    <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pasta Item 2 -->
+            <div class="col-md-4 mb-4">
+              <div class="menu-card">
+                <div class="food-img">
+                  <div class="img-container spring-pasta"></div>
+                </div>
+                <div class="menu-info">
+                  <h4>Delicious Pasta</h4>
+                  <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque</p>
+                  <div class="price-order">
+                    <span class="price">$10</span>
+                    <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fries Tab -->
+        <div class="tab-pane fade" id="fries" role="tabpanel" aria-labelledby="fries-tab">
+          <div class="row">
+            <!-- Fries Item 1 -->
+            <div class="col-md-4 mb-4">
+              <div class="menu-card">
+                <div class="food-img">
+                  <div class="img-container fries"></div>
+                </div>
+                <div class="menu-info">
+                  <h4>French Fries</h4>
+                  <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus
+                    sed eaque</p>
+                  <div class="price-order">
+                    <span class="price">$10</span>
+                    <button class="btn-add"><i class="fa-solid fa-cart-shopping"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View More Button -->
+      <div class="text-center mt-4">
+        <button type="button" class="btn btn-warning rounded-pill text-white mx-auto view-more">View More</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Third Section -->
+  <section class="section3">
+    <div class="container-fluid">
+      <div class="row col-rev">
+        <div class="col-lg-6 col-md-6">
+          <img src="./Images/about-img.png" alt="Burger" class="img-fluid">
+        </div>
+        <div class="col-lg-6 col-md-6 d-flex flex-column justify-content-center p-5">
+          <h1 class="fw-bold">We Are Feane</h1>
+          <p class="para2">
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+            some form, by injected humour, or randomised words which don't look even slightly believable. If you are
+            going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
+            middle of text.
+          </p>
+          <a href="#" class="btn btn-warning text-white btn3">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fourth Section -->
+  <section class="section4">
+    <div class="container mt-5">
+      <h1 class="table-title">Book A Table</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <div class="form-group py-3">
+              <input type="text" class="form-control input-style" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group py-3">
+              <input type="tel" class="form-control input-style" id="phone" placeholder="Phone Number">
+            </div>
+            <div class="form-group py-3">
+              <input type="email" class="form-control input-style" id="email" placeholder="Your Email">
+            </div>
+            <div class="form-group py-3">
+              <select class="form-control input-style" id="persons" required>
+                <option value="" disabled selected>How Many Persons?</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+            <div class="form-group py-3">
+              <input type="date" class="form-control input-style" id="date" placeholder="dd-mm-yyyy">
+            </div>
+            <button type="submit" class="btn btn-warning text-white btn3 mb-4">BOOK NOW</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354342415904!2d144.95373531568394!3d-37.81720997975108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11b3c1%3A0x5045675218c9d1b9!2sOld%20City%20Hall!5e0!3m2!1sen!2sau!4v1620191351345!5m2!1sen!2sau"
+              width="100%" height="390" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+              tabindex="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row row-gap-4">
+        <div class="col-md-4">
+          <h5>Contact Us</h5>
+          <p>📍 Location</p>
+          <p>📞 Call +01 1234567890</p>
+          <p>✉️ demo@gmail.com</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Feane</h5>
+          <p>Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin
+            words, combined with.</p>
+          <div class="social-icons">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-linkedin-in"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h5>Opening Hours</h5>
+          <p>Everyday</p>
+          <p>10:00 AM - 10:00 PM</p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12">
+          <p>© 2025 All Rights Reserved By Free Html Templates</p>
+          <p>© Distributed By ThemeWagon</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
