@@ -200,3 +200,14 @@ ul li a:hover{
 .social-icons a:hover{
     color: #ffbe33;
 }
+
+@media(max-width:550px){
+    .row{
+        padding: 0px 10px;
+    }
+}
+@media(max-width:1030px){
+    .row{
+        padding: 0px 10px;
+    }
+}
