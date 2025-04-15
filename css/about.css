@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playpen+Sans:wght@500&family=Sixtyfour&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* -------------- Navbar ----------------- */
+.container-fluid {
+    padding: 0;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: "Dancing Script", cursive;
+}
+
+ul li a {
+    padding-inline: 30px !important;
+    color: white !important;
+}
+
+ul li a:hover {
+    color: #ffbe33 !important;
+}
+
+.active {
+    color: #ffbe33 !important;
+}
+
+.btn:hover {
+    background-color: #e69c00;
+}
+
+.hover {
+    color: white;
+}
+
+.hover:hover {
+    color: #ffbe33;
+}
+
+/*---------------------- First Section ---------------------------*/
+.section1 {
+    height: 100%;
+    width: 100%;
+    background-color: #222831;
+    color: white;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 100px;
+}
+
+.fw-bold {
+    font-family: "Dancing Script", cursive;
+}
+
+.para2 {
+    max-width: 550px;
+}
+
+.btn3 {
+    height: 40px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+/*---------------------- Footer  ---------------------------*/
+.footer {
+    background-color: #222831; 
+    color: #ffffff;
+    padding: 40px 0;
+}
+.footer h5 {
+    font-family: "Dancing Script", cursive; 
+    font-size: 30px;
+}
+.social-icons a {
+    height: 30px;
+    width: 30px;
+    background-color: #ffffff;
+    color: #222831;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px; 
+    margin: 0 10px; 
+    font-size: 20px; 
+}
+.social-icons a:hover{
+    color: #ffbe33;
+}
+
+@media(max-width:550px) {
+    /*---------------------- Third Section  ---------------------------*/
+    .col-rev {
+        flex-direction: column-reverse;
+    }
+}

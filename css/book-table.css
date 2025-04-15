@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playpen+Sans:wght@500&family=Sixtyfour&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* -------------- Navbar ----------------- */
+.container-fluid {
+    padding: 0;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: "Dancing Script", cursive;
+}
+
+ul li a {
+    padding-inline: 30px !important;
+    color: white !important;
+}
+
+ul li a:hover {
+    color: #ffbe33 !important;
+}
+
+.active {
+    color: #ffbe33 !important;
+}
+
+.btn:hover {
+    background-color: #e69c00;
+}
+
+.hover {
+    color: white;
+}
+
+.hover:hover {
+    color: #ffbe33;
+}
+
+/*------------------------ First Section ----------------------------*/
+.section1{
+    height: 100%;
+    width: 100%;
+}
+.table-title{
+    font-family: "Dancing Script", cursive;
+}
+.input-style{
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: 1px solid black;
+    padding-left: 20px;
+}
+.input-style::placeholder{
+    color: black;
+}
+.btn3{
+    height: 40px;
+    width: 200px;
+    border-radius: 50px;
+}
+.map-container {
+    border-radius: 30px !important;
+}
+
+/*---------------------- Footer  ---------------------------*/
+.footer {
+    background-color: #222831; 
+    color: #ffffff;
+    padding: 40px 0;
+}
+.footer h5 {
+    font-family: "Dancing Script", cursive; 
+    font-size: 30px;
+}
+.social-icons a {
+    height: 30px;
+    width: 30px;
+    background-color: #ffffff;
+    color: #222831;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px; 
+    margin: 0 10px; 
+    font-size: 20px; 
+}
+.social-icons a:hover{
+    color: #ffbe33;
+}
